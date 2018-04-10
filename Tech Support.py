@@ -1,7 +1,7 @@
 def TechSupport():
     print("This is tech suport")
     print("Type your problem.")
-#Types in problem 
+#Types in problem
     print("What is your problem")
     answer = input()
     print(answer)
@@ -31,6 +31,3 @@ def TechSupport():
         print("Glad to help!")
     else:
         print("I'm very sorry, but I reccomend now that you visit customer suport from the company you baught the product from.")
-    
-    
-    
