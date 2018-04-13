@@ -2,12 +2,12 @@ def TechSupport():
     print("This is tech suport")
     print("Type your problem.")
 #Types in problem
-    print("What is your problem")
+    print("What is your problem?")
     answer = input()
     print(answer)
 #Recomendations start
     if answer == ("  "):
-        print("Have you tried quitting the application and then restarting it? Did that work?")
+        print("Ok. Have you tried quitting the application and then restarting it? Did that work?")
         answer = input()
         print(answer)
     else:
