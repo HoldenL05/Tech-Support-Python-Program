@@ -1,33 +1,22 @@
+#Series of problem(4 max) brake those problems into seperate if elif and else codes
 def TechSupport():
     print("This is tech suport")
-    print("Type your problem.")
+    print("Pick 1-4 to describe your problem.")
 #Types in problem
-    print("What is your problem?")
+    print("1: Application or app is not working correctly")
+    print("2: Device malfunction")
+    print("3: Virus")
+    print("4: Malware")
     answer = input()
     print(answer)
-#Recomendations start
-    if answer == ("  "):
-        print("Ok. Have you tried quitting the application and then restarting it? Did that work?")
-        answer = input()
-        print(answer)
-    else:
-        print("Have you tried force quiting the aplication? Did that work?")
-        answer = input()
-        print(answer)
+#Answers to problems
+    if answer == ("1"):
+        print("Quit and restart application or app")
+    if answer == ("2"):
+        print("Shut down and restart device. Works for all types of devices.")
+    if answer == ("3"):
+        print("Restart your computer and run anti virus software.")
+    if answer == ("4"):
+        print("Download and install malware bytes. Once installed, run a full sweep of computer.")
 
-    if answer == ("Yes"):
-        print("My work here is done!")
-    else:
-        print("Have you tried turning your computer, tablet, or phone completely off? Did that work?")
-        answer = input()
-        print(answer)
-    if answer == ("Yes"):
-        print("I was glad I could be of help!")
-    else:
-        print("Have you tried to restart your computer? Did that work?")
-        answer = input()
-        print(answer)
-    if answer == ("Yes"):
-        print("Glad to help!")
-    else:
-        print("I'm very sorry, but I reccomend now that you visit customer suport from the company you baught the product from.")
+   
