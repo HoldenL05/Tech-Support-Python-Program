@@ -19,5 +19,5 @@ def TechSupport():
     if answer == ("4"):
         print("Download and install malware bytes. Once installed, run a full sweep of computer.")
 
-    else:
-        ("You did not pick a problem.")   
+    elif answer == (" "):
+        print("You did not pick a problem.")
